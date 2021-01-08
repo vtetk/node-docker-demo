@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello Azure!!!');
+  res.send('Hello World 2021!!!');
 });
 
 app.listen(config.port, () => {
